@@ -1,5 +1,5 @@
-def open_file():
-    with open('data.csv', 'r', encoding='utf-8') as f:
+def open_file(input):
+    with open(input, 'r', encoding='utf-8') as f:
         content = f.read()
     lines = content.split("\n")
     
